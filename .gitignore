@@ -1,7 +1,7 @@
 # dependencies
 /node_modules
 
-/dist
+/build
 
 # IDEs and editors
 /.idea
@@ -32,3 +32,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+yarn.lock

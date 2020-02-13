@@ -1,11 +1,9 @@
-import express from "express";
+import express, {Request, Response} from "express";
 
 const server = express();
 
-server.get('/', function (req, res) {
+server.get('/', (req: Request, res: Response) => {
     res.send('Hello World!')
 });
 
-server.listen(3000, function () {
-    console.log('Example app listening on port 3000!')
-});
+export default server;
